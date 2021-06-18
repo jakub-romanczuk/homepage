@@ -1,0 +1,31 @@
+body {
+    background: #F5F5F5;
+}
+
+h1, h2, h3 {
+    color: #ff5e00
+}
+
+footer {
+    color: #D90429
+}
+
+.link {
+    color: #A30000
+}
+
+.main-header {
+    color: #2B2D42;
+}
+
+.sub-header {
+    color: #8D99AE
+}
+
+.text {
+    color: #27293C
+}
+
+.diary-date {
+    color: #ef233c
+}
