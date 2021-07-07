@@ -1,42 +1,29 @@
+/*main-colors*/
+
 body {
     background: #F5F5F5;
 }
 
-h1, h2, h3 {
-    color: #ff5e00
-}
-
 footer {
-    color: #D90429
+    color: #D90429;
 }
 
-.link,
-.nav-bar-button {
-    color: #A30000
-}
-
-.main-header {
-    color: #2B2D42;
+.link {
+    color: #A30000;
 }
 
 .sub-header {
-    color: #8D99AE
+    color: #8D99AE;
 }
 
-.text {
-    color: #27293C
-}
-
-.diary-date {
-    color: #ef233c
-}
+/*boxes*/
 
 .nav-bar {
     display: block;
     background: lightgray;
-    max-width: 100%;
+    width: 100%;
     height: 30px;
-    padding: 5px 10px;
+    padding: 5px 5px;
     box-sizing: border-box;
     border-radius: 5px;
 }
@@ -44,7 +31,58 @@ footer {
 .nav-bar-button {
     display: inline-block;
     padding: 2px 7px 1px 7px;
-    margin: 0 5px;
+    margin: 0 2.5px;
+    color: #A30000;
     background: rgb(187, 185, 185);
     border-radius: 5px;
+}
+
+.main-header,
+.sub-header {
+    margin-left: 25px;
+}
+
+.main-header {
+    position: sticky;
+    top: 0;
+    color: #2B2D42;
+}
+
+.about-me-section {
+    overflow: auto;
+    max-height: 470px;
+}
+
+.profile-picture {
+    float: left;
+    border-radius: 50%;
+    border: 5px solid #27293C;
+    margin: 15px 40px;
+}
+
+.about-me-text {
+    max-height: 470px;
+    max-width: 1100px;
+    margin: 30px 0;
+    color: #27293C;
+}
+
+.diary-header {
+    padding: 20px 0 20px 25px;
+    position: sticky;
+    top: 0;
+    color: #8D99AE;
+    background: #F5F5F5;
+}
+
+.diary-date{
+    padding-left: 10px;
+    color: #ef233c;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.diary-entry {
+    margin-left: 25px;
+    color: #27293C;
 }
