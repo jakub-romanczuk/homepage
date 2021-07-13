@@ -1,88 +1,88 @@
 /*main-colors*/
 
 body {
-    background: #F5F5F5;
+  background: #f5f5f5;
 }
 
 footer {
-    color: #D90429;
+  color: #d90429;
 }
 
 .link {
-    color: #A30000;
+  color: #a30000;
 }
 
 .sub-header {
-    color: #8D99AE;
+  color: #8d99ae;
 }
 
 /*boxes*/
 
 .nav-bar {
-    display: block;
-    background: lightgray;
-    width: 100%;
-    height: 30px;
-    padding: 5px 5px;
-    box-sizing: border-box;
-    border-radius: 5px;
+  display: block;
+  background: lightgray;
+  width: 100%;
+  height: 30px;
+  padding: 5px 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
 }
 
 .nav-bar-button {
-    display: inline-block;
-    padding: 2px 7px 1px 7px;
-    margin: 0 2.5px;
-    color: #A30000;
-    background: rgb(187, 185, 185);
-    border-radius: 5px;
+  display: inline-block;
+  padding: 2px 7px 1px 7px;
+  margin: 0 2.5px;
+  color: #a30000;
+  background: rgb(187, 185, 185);
+  border-radius: 5px;
 }
 
 .main-header,
 .sub-header {
-    margin-left: 25px;
+  margin-left: 25px;
 }
 
 .main-header {
-    position: sticky;
-    top: 0;
-    color: #2B2D42;
+  position: sticky;
+  top: 0;
+  color: #2b2d42;
 }
 
 .about-me-section {
-    overflow: auto;
-    max-height: 470px;
+  overflow: auto;
+  max-height: 470px;
 }
 
 .profile-picture {
-    float: left;
-    border-radius: 50%;
-    border: 5px solid #27293C;
-    margin: 15px 40px;
+  float: left;
+  border-radius: 50%;
+  border: 5px solid #27293c;
+  margin: 15px 40px;
 }
 
 .about-me-text {
-    max-height: 470px;
-    max-width: 1100px;
-    margin: 30px 0;
-    color: #27293C;
+  max-height: 470px;
+  max-width: 1100px;
+  margin: 30px 0;
+  color: #27293c;
 }
 
 .diary-header {
-    padding: 20px 0 20px 25px;
-    position: sticky;
-    top: 0;
-    color: #8D99AE;
-    background: #F5F5F5;
+  padding: 20px 0 20px 25px;
+  position: sticky;
+  top: 0;
+  color: #8d99ae;
+  background: #f5f5f5;
 }
 
-.diary-date{
-    padding-left: 10px;
-    color: #ef233c;
-    box-sizing: border-box;
-    width: 100%;
+.diary-date {
+  padding-left: 10px;
+  color: #ef233c;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .diary-entry {
-    margin-left: 25px;
-    color: #27293C;
+  margin-left: 25px;
+  color: #27293c;
 }
