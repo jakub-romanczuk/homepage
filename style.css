@@ -82,7 +82,14 @@ footer {
   width: 100%;
 }
 
-.diary__entry {
+.diary__text {
   margin-left: 25px;
   color: #27293c;
+}
+
+.diary__entry {
+  margin-bottom: 16px;
+  border: 2px solid #8d99ae;
+  border-radius: 10px;
+  background: rgb(141, 153, 174, 0.1);
 }
