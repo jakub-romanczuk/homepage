@@ -28,7 +28,7 @@ footer {
   border-radius: 5px;
 }
 
-.nav-bar-button {
+.nav-bar__button {
   display: inline-block;
   padding: 2px 7px 1px 7px;
   margin: 0 2.5px;
@@ -48,7 +48,7 @@ footer {
   color: #2b2d42;
 }
 
-.about-me-section {
+.about-me {
   overflow: auto;
   max-height: 470px;
 }
@@ -60,14 +60,14 @@ footer {
   margin: 15px 40px;
 }
 
-.about-me-text {
+.about-me__text {
   max-height: 470px;
   max-width: 1100px;
   margin: 30px 0;
   color: #27293c;
 }
 
-.diary-header {
+.diary__header {
   padding: 20px 0 20px 25px;
   position: sticky;
   top: 0;
@@ -75,14 +75,14 @@ footer {
   background: #f5f5f5;
 }
 
-.diary-date {
+.diary__date {
   padding-left: 10px;
   color: #ef233c;
   box-sizing: border-box;
   width: 100%;
 }
 
-.diary-entry {
+.diary__entry {
   margin-left: 25px;
   color: #27293c;
 }
